@@ -21,7 +21,46 @@
     </section>
     <section id="form">
         <h3 id="contact">Contact Information</h3>
+        <form>
+            <label for="name"> Full Name</label>
+            <input id="name" name="name" type="text" placeholder="Required" required>
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="Required" required>
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="number" required>
+            <label for="address">Street Address</label>
+            <input id="address" name="address" type="text" required>
+            <label for="city">City</label>
+            <input id="city" name="city" type="text" required>
+            <label for="state">State</label>
+            <select id="state" name="state" placeholder="Choose state" required>
+                <option>
+                    Choose State
+                </option>
+                <option value="Ohio">Ohio</option>
+                <option value="California">California</option>
+            </select>
+            <label for="zip">Zip Code</label>
+            <input id="zip" name="zip" type="text" required>
+            <hr>
+            <h3>Newsletter</h3>
+            <p>Select the newsletters you wish to receive:</p>
+            <div id="newsletter-options">
+                <input type="checkbox" name="html" value="HTML News">HTML News<br>
+                <input type="checkbox" name="css" value="CSS News">CSS News<br>
+                <input type="checkbox" name="javascript" value="JavaScript News">JavaScript News<br>
+                <p>Newsletter Format</p>
+                <input type="radio">HTML<br>
+                <input type="radio">Plain text <br>
+            </div>
+            <p>Other topics you'd like to hear about</p>
+            <textarea id="comments" name="comments"></textarea><br>
+            <button>Sign Up</button>
+        </form>
     </section>
+    <footer>
+        <p>Copyright the Code Review</p>
+    </footer>
 </div>
 
 </body>

@@ -20,6 +20,7 @@ header {
 
 hr {
     width: 90%;
+    border: 1px solid black;
 }
 
 #greeting {
@@ -46,13 +47,96 @@ label {
 }
 
 #form {
-    width: 100%;
+    width: 90%;
     padding: 2%;
+    margin-bottom: 2%;
 }
 
 #contact {
     text-align: left;
     padding-left: 2%;
+}
+
+form {
+    margin-left: 2%;
+    width: 100%;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    margin: 3% 0;
+    font-size: 0.9em;
+    display: block;
+    width: 95%;
+    height: 2em;
+}
+
+input {
+    background: lightgrey;
+    border: none;
+    padding: 3%;
+    text-align: right;
+}
+
+select {
+    width: 100%;
+    background: lightgrey;
+    padding: 3%;
+    border: none;
+    color: darkgray;
+    border-radius: 0;
+    height: 4em;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid black;
+}
+
+#zip {
+    width: 45%;
+    margin-bottom: 7%;
+}
+
+#form hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#newsletter-options:not(h3) {
+    color: darkgray;
+}
+
+#newsletter-options input {
+    margin-right: 3%;
+}
+
+textarea {
+    width: 100%;
+    background: lightgrey;
+    border: none;
+    height: 8em;
+    border-radius: 3%;
+}
+
+button {
+    background: #1abc9c;
+    width: 100%;
+    padding: 4%;
+    color: white;
+    border-radius: 5%;
+    font-size: 1.2em;
+    margin-top: 4%;
+    border: none;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
 }
 
 @media (min-width: 768px) {
