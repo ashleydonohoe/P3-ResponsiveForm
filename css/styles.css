@@ -140,9 +140,38 @@ footer {
 }
 
 @media (min-width: 768px) {
+    #greeting {
+        margin-top: 7%;
+    }
 
-}
+    #inner-content {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-@media (min-width: 1024px) {
+    .form-group {
+        width: 100%;
+    }
+
+    .contact-info label,
+    .contact-info input,
+    .contact-info select {
+        display: inline;
+        margin: 0;
+    }
+
+    .contact-info label {
+        float: left;
+        width: 25%;
+        padding-top: 3%;
+        clear: both;
+        margin-right: 10%;
+    }
+
+    .contact-info input,
+    .contact-info select {
+        float: right;
+        width: 75%;
+    }
 
 }
