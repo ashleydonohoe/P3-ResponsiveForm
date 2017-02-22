@@ -145,33 +145,29 @@ footer {
     }
 
     #inner-content {
-        width: 80%;
+        width: 60%;
         margin: 0 auto;
     }
 
     .form-group {
         width: 100%;
+        display: flex;
     }
 
-    .contact-info label,
-    .contact-info input,
+    label {
+        vertical-align: middle;
+    }
+
+    .contact-info input {
+        height: 1em;
+        vertical-align: middle;
+    }
+
     .contact-info select {
-        display: inline;
-        margin: 0;
+        height: 3em;
     }
 
-    .contact-info label {
-        float: left;
-        width: 25%;
-        padding-top: 3%;
-        clear: both;
-        margin-right: 10%;
+    #zip {
+        margin-bottom: 7%;
     }
-
-    .contact-info input,
-    .contact-info select {
-        float: right;
-        width: 75%;
-    }
-
 }
